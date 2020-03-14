@@ -29,19 +29,6 @@ function Tomas(){
 	this.width = 50;
 	this.height = 50;
 
-
-    this.move = function(edit){
-        if(edit === 'left'){
-            this.x -= this.speedX;
-        }else if(edit === 'right'){
-            this.x += this.speedX;
-        }else if(edit === 'right'){
-            this.x -= this.speedY;
-        }else if(edit === 'right'){
-            this.x += this.speedY;
-        }
-    }
-
 	this.spawn = function(){
 		setInterval(function(){
 			tomCounter++;
